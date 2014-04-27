@@ -33,3 +33,9 @@ The run_analysis.R script produces two files in the `tidy` directory.
 2. `subject_activity_average_data.txt` - Contains average of each variable grouped by subject and activity extracted from `merged_tidy_all.txt`
 
 See CodeBook.md for more details on column names.
+
+
+Note
+--------------
+The script is tested with R version 3.1.0 running on Ubuntu 12.04. Open an issue 
+if you face any problems.
