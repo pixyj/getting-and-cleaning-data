@@ -93,7 +93,7 @@ loadCategoryData <- function(category) {
     
     xFileName <- paste("X_", category, ".txt", sep="")
     xRelativePath <- paste(category, xFileName, sep="/")
-    x <- readXIntoTable(xRelativePath)
+    x <- loadXIntoTable(xRelativePath)
     filteredX <- filterXColumns(x)
 
     subjectAndActivity <- cbind(subjectData,activityLabelData)
@@ -153,7 +153,7 @@ tidyData <- function() {
     write.table(mergedData, "tidy/merged_tidy_all.txt")
     
     subjectAverageData <- averageBySubjectAndActivity(mergedData)
-    write.table(subjectAverageData, "tidy/subject_average_data.txt")
+    write.table(subjectAverageData, "tidy/subject_activity_average_data.txt")
 
     message("Done! Find tidy datasets in the \"tidy\" directory")
     endingTime <- Sys.time()
