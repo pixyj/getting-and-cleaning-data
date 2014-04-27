@@ -13,9 +13,9 @@ Instructions
 
 
 
-2. [Download](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) the dataset into the root directory of the repository, i.e. in the same level as this run_analysis.R.
+2. [Download](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) the dataset into the root directory of the repository, i.e. in the same level as run_analysis.R.
 
-3. Unzip the download file. You should see a directory called `UCI HAR Dataset`
+3. Unzip the downloaded file. You should see a directory called `UCI HAR Dataset`
 
 4. Open RStudio and set the working directory to the root directory of the repository.
 
